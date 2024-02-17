@@ -21,7 +21,7 @@ function App() {
     }
   }
   window.addEventListener("scroll", handleScroll);
-  
+
   return (
     <>
       <div className="app-bkg"></div>
@@ -35,10 +35,10 @@ function App() {
           </div>
         </div>
         <Routes>
-          <Route path='/' element={ <Home /> } />
-          <Route path='/portfolio' element={ <Portfolio /> } />
-          <Route path='/about' element={ <About /> } />
-          <Route path='/contact' element={ <Contact /> } />
+          <Route path='/nyah-portfolio' element={ <Home /> } />
+          <Route path='/nyah-portfolio/portfolio' element={ <Portfolio /> } />
+          <Route path='/nyah-portfolio/about' element={ <About /> } />
+          <Route path='/nyah-portfolio/contact' element={ <Contact /> } />
         </Routes>
       </div>
     </>
